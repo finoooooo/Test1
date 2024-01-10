@@ -1,0 +1,106 @@
+body {
+    background-color: #BCA37F; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #EAD7BB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#left-header img{
+    width: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #113946;
+    padding: 10px 20px 10px 20px;
+}
+
+nav a:hover {
+    background-color: #BCA37F;
+    border-radius: 8px;
+    color: #FFF2D8;
+    box-shadow: #113946;
+}
+
+nav a:active {
+    color: #113946;
+}
+
+main h1, h3 {
+    color: #113946;
+    text-align: center;
+}
+
+#about {
+    padding: 100px;
+    background-color: #EAD7BB;
+
+}
+
+.achievement h2 {
+    color: #BCA37F;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #113946;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.cards .card1 .card2 {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #BCA37F;
+}
+.card1 img {
+    width: 250px;
+    height: auto;
+}
+
+.card1 {
+    background-color: #FFF2D8;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: auto;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.card2 {
+    background-color: #FFF2D8;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #fff2d881;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 105px;
+    align-items: center;
+}
